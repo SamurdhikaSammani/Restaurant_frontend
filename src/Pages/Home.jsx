@@ -6,6 +6,7 @@ import Menu from '../componenets/Menu';
 import WhoAreWe from '../componenets/WhoAreWe';
 import Team from '../componenets/Team';
 import Reservation from '../componenets/Reservation';
+import Footer from '../componenets/Footer';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
        <WhoAreWe/>
          <Team/>
          <Reservation/>
+         <Footer/>
         </>
     )
 }
