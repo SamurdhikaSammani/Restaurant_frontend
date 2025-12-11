@@ -11,14 +11,14 @@ import Footer from '../componenets/Footer';
 const Home = () => {
     return (
         <>
-       <HeroSection/>
-       <About/>
-       <Qualities/>
-       <Menu/>
-       <WhoAreWe/>
-         <Team/>
-         <Reservation/>
-         <Footer/>
+            <HeroSection />
+            <About />
+            <Qualities />
+            <Menu />
+            <WhoAreWe />
+            <Team />
+            <Reservation />
+            <Footer />
         </>
     )
 }

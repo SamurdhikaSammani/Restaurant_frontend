@@ -7,7 +7,7 @@ const Menu = () => {
         <div className="container">
             <div className="heading_section">
                 <h1 className="heading">POPULAR DISHES</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, iusto dolorem! Voluptatibus ipsum nam mollitia architecto. Soluta pariatur eius et recusandae veritatis. Quasi, et molestias!</p>
+                <p>Discover the dishes everyone loves! Our most ordered and highly recommended meals are packed with flavor and prepared to perfection. Try our customer favorites and enjoy a delicious experience every time.</p>
             </div>
             <div className="dishes_container">
                 {

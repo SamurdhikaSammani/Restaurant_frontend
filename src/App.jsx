@@ -1,18 +1,19 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import {Toaster} from 'react-hot-toast';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 import Home from './Pages/Home.jsx';
 import Sucess from './Pages/Sucess.jsx';
-import NotFound from './Pages/NotFound.jsx';  
+import NotFound from './Pages/NotFound.jsx';
+import './App.css'
 
 const App = () => {
   return <Router>
     <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/about' element={<Sucess/>} />
-      <Route path='/contact' element={<NotFound/>} />
+      <Route path='/' element={<Home />} />
+      <Route path='/success' element={<Sucess />} />
+      <Route path='*' element={<NotFound />} />
     </Routes>
-    <Toaster/>
+    <Toaster />
 
   </Router>
 }
